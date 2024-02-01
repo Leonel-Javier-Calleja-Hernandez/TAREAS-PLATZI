@@ -127,11 +127,11 @@ function GANASTE(){
     let sectionReiniciar = document.getElementById("REINICIAR")
     sectionReiniciar.style.display = 'block'
 
-    let sectionMensajes = document.getElementById("MENSAJES")
+    //let sectionMensajes = document.getElementById("MENSAJES")
 
-    let parrafo =document.createElement('p')
+    let parrafo =document.getElementById("resultado")
     parrafo.innerHTML="🎆GANASTE✨🧨,REINICIA LA PAGINA"
-    sectionMensajes.appendChild(parrafo)
+    //sectionMensajes.appendChild(parrafo)
 
     let botonM4A1 = document.getElementById("boton-M4A1")
     botonM4A1.disabled = true
@@ -148,11 +148,11 @@ function GANASTE(){
         let sectionReiniciar = document.getElementById("REINICIAR")
         sectionReiniciar.style.display = 'block'
         
-        let sectionMensajes = document.getElementById("MENSAJES")
+        //let sectionMensajes = document.getElementById("MENSAJES")
     
-        let parrafo =document.createElement('p')
+        let parrafo =document.getElementById("resultado")
         parrafo.innerHTML="PERDISTE😕😔,REINICIA LA PAGINA"
-        sectionMensajes.appendChild(parrafo)
+        //sectionMensajes.appendChild(parrafo)
 
         let botonM4A1 = document.getElementById("boton-M4A1")
         botonM4A1.disabled = true
