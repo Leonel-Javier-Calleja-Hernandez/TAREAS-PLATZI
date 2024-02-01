@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    font-family: 'Anton', sans-serif;
+}
+.imagen-fondo{
+    width: 150px;
+    height: 150px;
+}
+.titulo {
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    background-color: #00c2ff;
+    border-radius: 15px;
+    padding: 50px;
+    font-size: 38px;
+}
+
+h2 {
+    margin: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ff0000;
+    color:#000000
+}
+#SELECCIONAR-MASCOTA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.t{
+    display: flex;
+}
+ 
+
+.targeta-de-mokepon {
+    width: 200px;
+    height: 110px;
+    color: #000000;
+    background: #00c2ff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+}
+.targeta-de-mokepon img {
+    width: 105px;
+    height: 90px;
+    margin: 10px;
+}
+#boton-mascota{
+    color: #000000;
+    width: 500px;
+    height: 50px;
+    background-color:#ff0000;
+    border-radius: 15px;
+    margin: 40px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+input {
+    display: none;
+    padding: 10px;
+    width: 10px;
+    height: 30px;
+}
+
+
+p {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#SELECCIONAR-ATAQUE{
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    justify-content: center;
+}
+.boton-de-ataque{
+    color: #000000;
+    width: 300px;
+    height: 50px;
+    background-color:#ff0000;
+    border-radius: 15px;
+    margin: 40px;
+    font-family: 'Anton', sans-serif;
+}
+
+.boton-de-reiniciar{
+    color: #000000;
+    width: 300px;
+    height: 50px;
+    background-color:#ff0000;
+    border-radius: 15px;
+    margin: 40px;
+    font-family: 'Anton', sans-serif;
+}
+#MENSAJES{
+        width: 280px;
+        background-color: aqua;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+}

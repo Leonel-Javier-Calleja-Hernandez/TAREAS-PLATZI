@@ -1,0 +1,17 @@
+…o crear un nuevo repositorio en la línea de comando
+
+echo "# TAREAS-PLATZI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/leoneljaviercallejahernandez/TAREAS-PLATZI.git
+git push -u origin main
+
+
+…o enviar un repositorio existente desde la línea de comando
+
+git remote add origin https://github.com/leoneljaviercallejahernandez/TAREAS-PLATZI.git
+git branch -M main
+git push -u origin main
+
